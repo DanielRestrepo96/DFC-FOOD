@@ -1,0 +1,260 @@
+*{
+	margin top:0;
+	padding:0;
+}
+header{
+	background:radial-gradient(red,orange);	
+	float: none;		
+	margin-top:5%;
+	width: 100%;
+	height: 50hv;
+	box-shadow: 1px 2px 1px rgba(0.0.0.5);
+}
+nav{
+	float: none;
+	padding: 20px;
+	position:fixed;
+	top:0;
+	background-color: red;
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	box-shadow: 1px 2px 1px rgba(0.0.0.5);
+}
+.list{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	border-radius: 10px;
+	text-align: center;
+}
+.list:hover{
+	background-color: orange;
+	width: 160px;
+	margin-top: 5px;		
+	position:none;
+	top:none;
+	text-align: center;
+}
+.etiq{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family:  arial black;
+}
+.navi{
+	float: none;
+	top: none;
+	font-size: 18px;
+	text-align: center;	
+	margin-top:none;
+	list-style-type: none;
+}
+body{
+	font-family: arial;		 
+	background: radial-gradient(50%  100% , red, orange, white );	
+}
+section{
+	float: left;
+	border:none;
+	height: 60%;
+	width: 45%;
+	margin-right:2%;
+	margin-left: 2%;
+	margin-top: 13%;
+}
+article{
+	margin-top: 2px;
+	border:none;
+	height: 40%;
+	padding: 1% 3px;
+}
+aside{
+	float: left;
+	border: none;
+	background: transparent;
+	height: 88%;
+	width: 40%;
+	margin-right: 2%;
+	margin-top: none;
+	padding: 2px;
+}
+h1,h2,h3,h4,h5,p{
+	text-align: center;
+}
+aside,ul{
+	float: left;
+	top: 0;
+	font-size: 18px;
+}
+p{
+	margin-top: none;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+aside,ul,li{
+	text-align: justify;	
+	margin-top:none;
+	list-style-type: none;
+
+}
+aside,li{
+	margin-top: 1px;
+	margin:5px;
+}
+a{
+	margin-top: 13%;
+	float: left;
+	width: 100%;
+}*/
+iframe {
+	float: left;
+	margin.top: :2%;
+	width: 90%;
+	height: 80%;
+	margin-left:5%;
+	margin-right: :3%;
+	padding: 3%;
+
+}
+footer{
+	float: left;
+	width: 100%;
+	height: 8%;
+	background-color: red;
+	border:2px solid black;
+	padding:10px 5px;
+	font-family: arial black;
+}
+.navegador{
+	position: fixed;
+}
+.pie{
+	padding: 10px 5px;
+	height: 20%;
+	position: center;
+}
+.Cocinillas{
+	margin-top: 10%;
+	width: 100%;
+}
+#uno{
+	background: transparent;
+	margin-top: none;
+}
+#dos{
+	background: transparent;
+}
+#tres{
+	background: transparent;
+}
+#cuatro{
+	background: transparent;
+}
+#cinco{
+	background: transparent;
+}
+#seis{
+	background: transparent;
+}
+#siete{
+	background: transparent;
+}
+#ocho{
+	background:transparent;
+}
+/*=======barra de busqueda=======*/
+.buscar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background:#069;
+	padding: 10px;
+	height: 50px;
+	border-radius: 40px;
+}
+.btext{
+	border:none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	float: left;
+	line-height: 60px;
+	transition:.3s;
+	width: 0;
+}
+.boton1{
+/*organizar lupita*/
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-top: 5px;
+}
+/* ======responsive=======*/
+@media screen and (min-width: 480px){
+	.buscar:hover > .btext{
+		width: 190px;
+	}	
+}
+@media screen and (min-width: 768px){
+	.buscar: hover >.btext{
+		width: 300px;
+	}
+}
+@media screen and (min-width: 1024px){
+	.buscar:hover>.btext{
+		width: 500px;
+	}
+}
+/*====styles boton==========*/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-buscar:before {
+  content: "\61";
+}
+

@@ -1,0 +1,26 @@
+*{margin-top: 0;}
+body{
+	background: radial-gradient(50%  100% , red, orange, white );
+}   
+header{
+	
+   font-family: arial;
+   font-size: 100%;
+   margin-top: 0;
+   border: 2px solid black;
+   text-underline-position: center;
+   background-color: red;
+   text-align: center;
+
+}
+
+iframe{		 
+	width:1800px;  
+	height:880px;
+}
+
+
+footer{
+   background-color: red; 
+   border: 2px solid black;
+}

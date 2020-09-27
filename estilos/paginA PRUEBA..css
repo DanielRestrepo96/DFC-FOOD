@@ -1,0 +1,84 @@
+
+body{
+	font-family: arial;		 
+	background: radial-gradient(50%  100% , red, orange, white );	
+}
+section{
+	float: left;
+	border:2px solid black;
+	height: 60%;
+	width: 45%;
+	margin-right:2%;
+	margin-left: 2%;
+	margin-top: 6%;
+
+
+}
+article{
+	margin-top: 2px;
+	border:2px solid black;
+	height: 40%;
+	padding: 1%;
+
+}
+aside{
+	float: left;
+	border:2px solid black;
+	background-color: orange;
+	height: 88%;
+	width: 45%;
+	margin-right: 2%;
+	margin-top: none;
+	padding: 2px;
+	
+}
+h1,h2,h3,h4,h5,p{
+	text-align: center;
+
+}
+
+ul{
+	float: left;
+}
+p{
+	margin-top: 0%;
+}
+ul,li{
+	text-align: justify;	
+	margin-top:-0;
+}
+a{
+	margin-top: 10%;
+	float: left;
+	width: 100%;
+}
+iframe {
+	float: left;
+	margin.top: :2%;
+	width: 90%;
+	height: 80%;
+	margin-left:5%;
+	margin-right: :3%;
+	padding: 3%;
+
+}
+footer{
+	float: left;
+	width: 100%;
+	height: 4%;
+	background-color: red;
+	border:2px solid black;
+	padding: 3%;
+	font-family: arial black;
+}
+.Cocinillas{
+	margin-top: 10%;
+	width: 100%;
+}
+#uno{
+	background-color: blue;
+
+}
+#dos{
+	background-color: green;
+}
