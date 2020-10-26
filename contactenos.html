@@ -2,35 +2,109 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="estilos/buscador.css">
+	<link rel="stylesheet" type="text/css" href="estilos/contactenos.css">
+
 	<title>CONTACTENOS</title>
-	<link href="estilos/contactenos.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="imagen/x-icon" href="img/iconos/icono.ico" >	
 </head>
 
 <body>
-		<nav>
-		  <ul class=" navi" >
-			 <li class="list"><a class="etiq" href="index.php">Home</a></li>
-			 <li class="list"><a class="etiq" href="quien somos.html">Quien somos</a></li>
-			 <li class="list"><a class="etiq" href="ubicanos.html">Nuestras sedes</a></li>			
-			 <li class="list"><a class="etiq" href="dfc kids.html"> DFC Kids</a></li>
-			 <li class="list"><a class="etiq" href="contactenos.html">Contactanos</a></li>
-			 <li class="list"><a class="etiq" href="login.html">Log in</a></li>	
-		  </ul>			           
-	   </nav> 
-	<center><img src="img/visitanos.png" width="80%"> </center>
-	<br> <label>PEDIDO</label><br>
+	<!--jumbotron-->
+	<div class="jumbotron" id="jum">
+		<center>
+			<img src="img/carru/visitanos1.png" width="50%" >
+			<hr class="my-4">
+			<br>
+			<!--buscador-->	
+			<div class="buscar">
+				<input class="btext" type="text" placeholder="Buscar">
+				<a  href="#" class="boton1" >
+					<i class="icon-buscar"></i>
+				</a>
+			</div>
+		</div>
+	</center>
+</div>
+<br>
+<!--navegacion-->
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background:red">
+	<img src="img/jumbo/logo empresa2.png" style="min-width: 110px" width="11%"  alt="..." loading="lazy">
+	<a class="navbar-brand" href="#"></a>
 
-<input type="text" name="PEDIDO"><br>
-<label>INGRESE SU CORREO</label><br>
-<input type="email" name="correo"><br>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-<label>Indique su número celular:</label><br>
-<input type="tel" name="celular" pattern="[0-9]{3}[0-9]{7}"><br>
 
-<label>Comentarios:</label><br>
-<textarea name="comentarios" rows="10" cols="30">
-Texto
-</textarea>	
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+		<ul class="navbar-nav mx-auto ">
+			<li class="nav-item active">
+				<a id="lista" class="nav-link" target="_black" href="index.php">Home </a>
+			</li>					
+			<li class="nav-item dropdown active">
+				<a id="lista" class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Información
+				</a>
+				<div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+					<a id="lista" class="dropdown-item " target="_black" href="quien somos.html">Quién somos</a>						
+					<div class="dropdown-divider"></div>
+					<a id="lista" class="dropdown-item" target="_black" href="contactenos.html">Contactanos</a>
+				</div>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link" target="_black" href="ubicanos.html">Nuestras sedes</a>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link"  target="_black" href="dfc kids.html">DFC Kids</a>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link" target="_black" href="login.html">Log in</a>
+			</li>				
+		</ul>    
+	</div>
+</nav>
+<div class="container-fluid" id="form" >
+	<div class="container" style=" margin-left: : 10px;">
+		<form>
+			<div class="form-group">
+				<label for="formGroupExampleInput"><h4>PEDIDO</h4></label>
+				<input type="text" name="PEDIDO" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su pedido" style="width: 50%;">
+			</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput2"><h4>INGRESE SU CORREO</h4></label>
+				<input type="email" name="correo" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su correo" style="width: 50%;">
+			</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput2"><h4>INDIQUE SU NÚMERO DE CELULAR</h4></label>
+				<input type="tel" name="celular" class="form-control" id="formGroupExampleInput2" pattern="[0-9]{3}[0-9]{7}" placeholder="Ingrese numero de celular" style="width: 50%;">
+			</div>
+			<div class="form-group">
+				<label for="formGroupExampleInput2"><h4>COMENTARIOS</h4></label>
+				
+				<textarea class="form-control" id="validationTextarea" placeholder="Texto" required style="width: 50%;"></textarea>
+			</div>
+		</form>
+		<button type="button" class="btn btn-success">Enviar</button>
+	</div>
+</div>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

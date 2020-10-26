@@ -1,11 +1,36 @@
 body{
 	margin:0;
 	padding: 0;
-	background: url(../fondologin.jpeg) no-repeat center top;
+	background: radial-gradient(50%  100% ,   white,orange );
 	background-size: cover;
 	font-family: sans-serif;
 	height: 100vh;
+	
 }
+nav {
+	
+	height: 65px;
+	box-shadow: 1px 2px 1px rgba(0.0.0.5);
+
+}
+#lista{	
+	
+	margin-left: 10px;
+	border-radius: 25px 5%;	
+	color:black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+#lista:hover{
+	background-color: orange;
+	width: 150px;
+	margin-top: 2px;
+	
+	
+}
+
 .login-box{
 	width: 320px;
 	height: 420px;
@@ -17,6 +42,8 @@ body{
 	transform:translate(-50% , -50%);
 	box-sizing: border-box;
 	padding: 70px 30px; 
+	margin-top: 65px;
+	border-radius: 10px ;
 }
 .login-box .avatares{
 	height: 100px;

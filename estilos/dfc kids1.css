@@ -1,0 +1,88 @@
+body{
+	font-family: arial;		 
+	background: radial-gradient(50%  100% ,   white,orange );
+}
+
+nav {
+	
+	height: 65px;
+	box-shadow: 1px 2px 1px rgba(0.0.0.5);
+
+}
+#jum{
+	background:transparent;
+	margin-bottom: 0px;
+	margin-top: 65px;
+	box-shadow: 1px 2px 1px rgba(0.0.0.5)
+	
+}
+#lista{	
+	
+	margin-left: 10px;
+	border-radius: 25px 5%;	
+	color:black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+#lista:hover{
+	background-color: orange;
+	width: 150px;
+	margin-top: 2px;
+	
+	
+	text-align: center;
+}
+.etiq{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family:  arial black;
+}
+
+h1,h2,h3,h4,p {
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+}
+h1,h2,h3,h4{
+	border-bottom: double;
+}
+.photo{
+	background: radial-gradient(50%  100% , white,#d1d9dc );
+	border-radius: 12px;
+}
+.promo{
+	background: red;
+	border-radius: 10px 5%;
+}
+.des{
+	background: orange;
+	border-radius: 10px 5%;
+}
+.mitad{
+	background: gold;
+	border-radius: 10px 5%;
+}
+.imgen{
+	float: left;
+	padding: 7px;
+	background:rgba(150,100,30,0);
+	
+}
+p{
+	font-family: arial ;
+	font-size: 20px;
+	text-align: center;	
+}
+.uno,.dos,.tres,.cuatro,.cinco,.seis{
+	text-align: left;
+	font-size: 14px;
+	font-family: serif;
+	list-style-type: none;
+	font-style: oblique;
+	font-weight: bold;
+	
+}
+

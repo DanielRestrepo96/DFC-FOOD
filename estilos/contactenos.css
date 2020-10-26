@@ -1,58 +1,79 @@
 body{
 	font-family: arial;		 
-	background: radial-gradient(50%  100% , red, orange, white ); 	
+	background: radial-gradient(50%  90% ,   white,orange );; 	
 }
-nav{
-	float: none;
-	padding: 20px;
-	position:fixed;
-	top:0;
-	background-color: red;
-	height: 10%;
-	width: 100%;
-	text-align: center;
-	box-shadow: 1px 2px 1px rgba(0.0.0.5);
+nav {
+   
+   height: 65px;
+   box-shadow: 1px 2px 1px rgba(0.0.0.5);
+
 }
-.list{
-	list-style: none;
-	display: inline-block;
-	margin-left: 40px;
-	border-radius: 10px;
-	text-align: center;
+#jum{
+   background:transparent;
+   margin-bottom: 0px;
+   margin-top: 65px;
+   box-shadow: 1px 2px 1px rgba(0.0.0.5)
+   
 }
-.list:hover{
-	background-color: orange;
-	width: 160px;
-	margin-top: 5px;		
-	position:none;
-	top:0;
-	text-align: center;
+#lista{  
+   
+   margin-left: 10px;
+   border-radius: 25px 5%; 
+   color:black;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+
+#lista:hover{
+   background-color: orange;
+   width: 150px;
+   margin-top: 2px;
+   
+   
+   text-align: center;
 }
 .etiq{
-	text-decoration: none;
-	color: black;
-	font-size: 18px;
-	font-family:  arial black;
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-family:  arial black;
 }
-.navi{
-	float: none;
-	top: none;
-	font-size: 18px;
-	text-align: center;	
-	margin-top:none;
-	list-style-type: none;
+h1,h2,h3,h4,p {
+   font-size: 30px;
+   font-family: serif;
+   text-align: center;
+   color: black;
+
 }
-img{
-	margin-top: 5%;
-	border: 0;
-	line-height: 0;
+h1,h2,h3,h4{
+   border-bottom: double;
+   border-radius-top: 10px;
+   font-size: 20px;
 }
-h1,h2, h3, h4, h5{
-font-family: ;
+h1{
+   background: red;
+   border-radius: 10px 5%;
+   font-size: 40px;
 }
-ul{
-	position: center;
+
+p{
+   font-family: arial ;
+   font-size: 20px;
+   text-align: center;  
 }
-li{
-	position: center;
+.uno,.dos,.tres,.cuatro,.cinco,.seis{
+   text-align: left;
+   font-size: 14px;
+   font-family: serif;
+   list-style-type: none;
+   font-style: oblique;
+   font-weight: bold;
+   
 }
+#form{
+   
+}
+
+
+
