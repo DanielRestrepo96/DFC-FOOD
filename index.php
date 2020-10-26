@@ -170,7 +170,7 @@
 					<div>
 						<img src="img/empa/empanadas2.jpg" width="48%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
@@ -215,7 +215,7 @@
 					<div>
 						<img src="img/salchipapa/salchipapa-especial.jpg" width="50%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid ">
 						<br>						
 						<div class="row " style="border:2px solid">
@@ -250,7 +250,7 @@
 					<div>
 						<img src="img/salchipapa/salchipapa_nota.jpg" width="50%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
@@ -295,7 +295,7 @@
 					<div>
 						<img src="img/perro/hot dog especial.jpg" width="55%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid " >
 						<br>						
 						<div class="row" style="border:2px solid">
@@ -330,7 +330,7 @@
 					<div>
 						<img src="img/perro/hot dog sencillo.jpg" width="65%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
@@ -376,7 +376,7 @@
 					<div>
 						<img src="img/burger/burger especial.jpg" width="65%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid " >
 						<br>						
 						<div class="row " style="border:2px solid">
@@ -411,7 +411,7 @@
 					<div>
 						<img src="img/burger/burger sencilla.jpeg" width="65%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
@@ -456,7 +456,7 @@
 					<div>
 						<img src="img/alitas/alitas bbq.jpg" width="54%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid " s>
 						<br>						
 						<div class="row " style="border:2px solid">
@@ -491,7 +491,7 @@
 					<div>
 						<img src="img/alitas/alitas bbq2.jpg" width="53%" alt="..." loading="lazy" style="border-radius: 10px;">
 					</div>					
-					<hr class="my-4">
+					<hr class="my-4" style="background-color: black;">
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
