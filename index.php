@@ -7,7 +7,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" >
 	<link rel="stylesheet" type="text/css" href="estilos/buscador.css">
-	<link rel="stylesheet" type="text/css" href="estilos/index.cssr">
+	<link rel="stylesheet" type="text/css" href="estilos/index.css">
 	
 	
 	<title>COMIDAS RÁPIDAS DFC</title>
