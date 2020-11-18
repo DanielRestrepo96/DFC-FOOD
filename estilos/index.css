@@ -57,7 +57,7 @@ nav {
 }
 
 h1,h2,h3,h4,p {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: monospace;
 	text-align: center;
 	list-style: none;
@@ -70,13 +70,13 @@ h1,h2,h3,h4{
 }
 li{
 	list-style: none;
-	font-size:  30px;
+	font-size:  25px;
 	color: black;
 	
 }
 p{
 	font-family: monospace;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;	
 }
 

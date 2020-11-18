@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin:0;
+	padding: 0;
+	background: radial-gradient(50%  100% ,white,orange);
+	background-size: cover;
+	font-family: sans-serif;
+	/*background: red;*/
+}
+
+
+
+.formulario{
+	width: 420px;
+	height: 580px;
+	background:#000;
+	color:#fff;
+	top:25%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50% , -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; 
+	margin-top: 65px;
+	border-radius: 10px ;
+
+}
+
+
+
+p{
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color:white;
+	font-weight: 600;
+}
+.link:hover{
+	color:cadetblue;
+}
+input[type="submit"]:hover{
+	border:none;
+	outline: none;
+	height: 40px;
+	background:#b80f22; 
+	color:white;
+	font-size: 18px;
+	border-radius: 20px;	
+}
+
+
+.formulario h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color:white;	
+}
+
+.formulario label{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	display: block; 
+}
+
+.formulario input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"]{
+	border:none;
+	border-bottom: 1px solid white;
+	background:transparent; 
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size:16px; 
+	width: 98%;
+
+}
+.formulario input[type="submit"]{
+	border:none;
+	width: 100%;
+	color:white;
+	font-size: 18px;
+	background: red;	
+	border-radius: 20px;
+	height: 40px;
+	cursor: pointer;
+
+}
+
+.formulario input[type="submit"]:hover{
+	border:none;
+	outline: none;
+	height: 40px;	 
+	color:white;
+	font-size: 18px;
+	border-radius: 20px;
+	background: cadetblue;
+}
+/*.formulario p a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:darkgray;
+
+}*/
+/*.formulario a:hover{
+	color:#fff;
+}*/
+
+
+@media(min-width: 768px){
+	.formulario{
+		margin:auto;
+		width: 500px;
+		margin-top: 150px;
+		border-radius: 2%;
+	}
+}
+@media(min-width: 451px){
+	.formulario{
+		
+		width: 500px;
+		margin-top: 150px;
+		border-radius: 2%;
+		margin left: 20px;
+		margin-right: 20px;
+	}
+}
