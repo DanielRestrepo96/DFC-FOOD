@@ -44,23 +44,23 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent" style="background:red;">
 			<ul class="navbar-nav mx-auto ">
 				<li class="nav-item ">
-					<a id="lista" class="nav-link disabled" style="display: none" href="index.php">Home </a>
+					<a id="lista" class="nav-link disabled"  href="index.php">Home </a>
 				</li>					
 				<li class="nav-item dropdown active">
-					<a id="lista" class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a id="lista" class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Información
 					</a>
 					<div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-						<a id="lista" class="dropdown-item " target="new_black" href="quien somos.html">Quién somos</a>						
+						<a id="lista" class="dropdown-item disabled " target="new_black" href="quien somos.html">Quién somos</a>						
 						<div class="dropdown-divider"></div>
-						<a id="lista" class="dropdown-item disabled" target="new_black"  style="display: none" href="contactenos.html">Contactanos</a>
+						<a id="lista" class="dropdown-item disabled" target="new_black"   href="contactenos.html">Contactanos</a>
 					</div>
 				</li>
 				<li class="nav-item active">
-					<a id="lista" class="nav-link disabled" style="display: none" target="new_black" href="ubicanos.html">Nuestras sedes</a>
+					<a id="lista" class="nav-link disabled"  target="new_black" href="ubicanos.html">Nuestras sedes</a>
 				</li>
 				<li class="nav-item active">
-					<a id="lista" class="nav-link" target="new_black" href="dfc kids.html">DFC Kids</a>
+					<a id="lista" class="nav-link disabled" target="new_black" href="dfc kids.html">DFC Kids</a>
 				</li>
 				<li class="nav-item active">
 					<a id="lista" class="nav-link" target="new_black" href="login.html">Log in</a>
