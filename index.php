@@ -38,7 +38,8 @@
 	<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background:red">		
 		<img  src="img/jumbo/logo empresa2.png"  style="min-width: 110px" width="11%" alt="..." loading="lazy">
 		<a class="navbar-brand" href="#"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#formulario" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#formulario" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent" style="background:red;">
