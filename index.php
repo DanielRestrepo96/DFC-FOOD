@@ -35,42 +35,45 @@
 	<br>
 
 	<!--navegacion-->
-	<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background:red">		
-		<img  src="img/jumbo/logo empresa2.png"  style="min-width: 110px" width="11%" alt="..." loading="lazy">
-		<a class="navbar-brand" href="#"></a>
+	<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background:red">
+	<img src="img/jumbo/logo empresa2.png" style="min-width: 110px" width="11%" alt="..." loading="lazy">
+	<a class="navbar-brand" href="#"></a>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse"  aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent" style="background:red;">
-			<ul class="navbar-nav mx-auto ">
-				<li class="nav-item ">
-					<a id="lista" class="nav-link disabled"  href="index.php">Home </a>
-				</li>					
-				<li class="nav-item dropdown active">
-					<a id="lista" class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Información
-					</a>
-					<div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-						<a id="lista" class="dropdown-item disabled " target="new_black" href="quien somos.html">Quién somos</a>						
-						<div class="dropdown-divider"></div>
-						<a id="lista" class="dropdown-item disabled" target="new_black"   href="contactenos.html">Contactanos</a>
-					</div>
-				</li>
-				<li class="nav-item active">
-					<a id="lista" class="nav-link disabled"  target="new_black" href="ubicanos.html">Nuestras sedes</a>
-				</li>
-				<li class="nav-item active">
-					<a id="lista" class="nav-link disabled" target="new_black" href="dfc kids.html">DFC Kids</a>
-				</li>
-				<li class="nav-item active">
-					<a id="lista" class="nav-link" target="new_black" href="login.html">Log in</a>
-				</li>				
-			</ul>    
-		</div>
-	</nav>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-	<button type="button" class="btn btn-primary fixed-top" data-toggle="modal" data-target="#modaluno" style=" margin-top: 150px;border-radius: 5% 20px; display:visibility"> <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent" style="background:red;">
+
+		<ul class="navbar-nav mx-auto ">
+			<li class="nav-item active">
+				<a id="lista" class="nav-link disabled" target="black" href="index.php">Home </a>
+			</li>					
+			<li class="nav-item dropdown active">
+				<a id="lista" class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Información
+				</a>
+				<div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+					<a id="lista" class="dropdown-item disabled" target="black" href="quien somos.html">Quién somos</a>						
+					<div class="dropdown-divider"></div>
+					<a id="lista" class="dropdown-item disabled" target="black" href="contactenos.html">Contactanos</a>
+				</div>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link disabled" target="black" href="ubicanos.html">Nuestras sedes</a>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link disabled" target="black" href="dfc kids.html">DFC Kids</a>
+			</li>
+			<li class="nav-item active">
+				<a id="lista" class="nav-link" target="black" href="login.html">Log in</a>
+			</li>				
+		</ul>    
+	</div>
+</nav>
+
+	<button type="button" class="btn btn-primary fixed-top" data-toggle="modal" data-target="#modaluno" style=" margin-top: 150px;border-radius: 5% 20px; display:visibility"> <svg  width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 		<path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/1>
 		</svg>									
 	</button>
@@ -139,7 +142,7 @@
 					<div class="container-fluid " >
 						<br>						
 						<div class="row " style="border:2px solid" >
-							<div class="col-sm"  style="margin-right: 2.5%;margin-left: 4% ;width:45%; ">
+							<div class="col-sm"  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>
@@ -153,7 +156,7 @@
 									
 								</div>								
 							</div>
-							<div class="col-sm"  style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm"  style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> 15 X $ 5000 </p>
@@ -178,7 +181,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>
@@ -191,7 +194,7 @@
 									</ul> 
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> 15 X $ 5000 </p>
@@ -224,7 +227,7 @@
 					<div class="container-fluid ">
 						<br>						
 						<div class="row " style="border:2px solid">
-							<div class="col-sm " style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -237,7 +240,7 @@
 									</ul>		
 								</div>								
 							</div>
-							<div class="col-sm "  style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 7.000 </p>					
@@ -260,7 +263,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -273,7 +276,7 @@
 									</ul>
 								</div>							
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;"  >
+							<div class="col-sm "style="margin-right: 2.5%;width:50%;margin-left: 2%"  >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 5.000 </p>					
@@ -306,7 +309,7 @@
 					<div class="container-fluid " >
 						<br>						
 						<div class="row" style="border:2px solid">
-							<div class="col-sm " style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -319,7 +322,7 @@
 									</ul>		
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> $ 7.000 </p>
@@ -342,7 +345,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -355,7 +358,7 @@
 									</ul>
 								</div>							
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 6.500 </p>					
@@ -389,7 +392,7 @@
 					<div class="container-fluid " >
 						<br>						
 						<div class="row " style="border:2px solid">
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -402,7 +405,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 9.000 </p>					
@@ -425,7 +428,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
-							<div class="col-sm"  style="margin-right: 2.5%;margin-left: 4% ;width:45%; border: 2.5%">
+							<div class="col-sm"  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -438,7 +441,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> $ 8.000 </p>					
@@ -471,7 +474,7 @@
 					<div class="container-fluid " s>
 						<br>						
 						<div class="row " style="border:2px solid">
-							<div class="col-sm"  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm"  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -484,7 +487,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm" style="margin-right: 2.5%; width:45%;" >
+							<div class="col-sm" style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> $ 12.000 </p>					
@@ -507,7 +510,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid">
-							<div class="col-sm"  style="margin-right: 2.5%; margin-left: 4% ; width:45%;">
+							<div class="col-sm"  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -520,7 +523,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 8.000 </p>					
@@ -554,7 +557,7 @@
 					<div class="container-fluid " >
 						<br>						
 						<div class="row" style="border:2px solid">
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -567,7 +570,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p> $ 15.000 </p>			
@@ -590,7 +593,7 @@
 					<div class="container-fluid" >
 						<br>
 						<div class="row " style="border:2px solid" >
-							<div class="col-sm "  style="margin-right: 2.5%;margin-left: 4% ;width:45%;">
+							<div class="col-sm "  style="margin-right: 2.5%;width:50%;margin-left: 2%">
 								<h2>GASEOSAS</h2>
 								<div>
 									<ul>		
@@ -603,7 +606,7 @@
 									</ul>
 								</div>								
 							</div>
-							<div class="col-sm " style="margin-right: 2.5%;width:45%;" >
+							<div class="col-sm " style="margin-right: 2.5%;width:50%;margin-left: 2%" >
 								<h2>PRECIOS</h2>
 								<div>
 									<p>$ 9.000 </p>					
