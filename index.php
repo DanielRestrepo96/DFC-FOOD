@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" >
 	<link rel="stylesheet" type="text/css" href="estilos/buscador.css">
 	<link rel="stylesheet" type="text/css" href="estilos/index/index.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	
 	
 	<title>COMIDAS RÁPIDAS DFC</title>
@@ -48,7 +49,7 @@
 
 		<ul class="navbar-nav mx-auto ">
 			<li class="nav-item active">
-				<a id="lista" class="nav-link disabled" target="black" href="index.php">Home </a>
+				<a id="lista" class="nav-link disabled" target="black" href="index.html">Home </a>
 			</li>					
 			<li class="nav-item dropdown active">
 				<a id="lista" class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -67,7 +68,7 @@
 				<a id="lista" class="nav-link disabled" target="black" href="dfc kids.html">DFC Kids</a>
 			</li>
 			<li class="nav-item active">
-				<a id="lista" class="nav-link" target="black" href="login.html">Log in</a>
+				<a id="lista" class="nav-link"  href="login.html">Log in</a>
 			</li>				
 		</ul>    
 	</div>
@@ -653,9 +654,11 @@
 					<div>
 						<br>
 						<ul>
-							<li class="uno">CORREO: DFCFOOD@GMAIL.COM</li>
-							<li class="dos">TELEFONO: 5230990</li>
-							<li class="tres">DIRECCIÓN: CR 50 # 104- 60</li>
+							<li class="uno"><i class="fas fa-envelope" style="font-size:20px">: DFCFOOD@GMAIL.COM</i></li>
+							
+							<li class="dos"><i class="fas fa-phone" style="font-size:20px">: 5230990</i></li>
+
+							<li class="tres"><i class="fas fa-map-marked-alt" style="font-size:20px">: CR 50 # 104- 60</i></li>
 						</ul>
 					</div>
 				</div>
@@ -663,9 +666,9 @@
 					<div>
 						<br>
 						<ul>
-							<li class="cuatro">FACEBOOK</li>
-							<li class="cinco">YOUTUBE</li>
-							<li class="seis ">INSTRAGRAM</li>
+							<li class="cuatro"><i class="fab fa-facebook-square" style="color:black; font-size:30px; right: 10px; "> Facebook</i></li>
+							<li class="cinco"> <i class="fab fa-youtube-square" style=" font-size:30px; right: 10px; "> Youtube</i></li>
+							<li class="seis "><i class="fab fa-instagram" style=" font-size:30px; right: 10px; color:black;"> Instagram</i></li>
 						</ul>
 					</div>
 				</div>
